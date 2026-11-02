@@ -30,7 +30,7 @@ Zero-touch (Google) / Knox Mobile Enrollment (Samsung): the reseller registers t
 Default vs staging token: a default token is for a user to enrol and sign in straight away. A staging token lets IT (or a reseller) prepare the device first, and the user signs in later.
 <h2>Troubleshooting and Lessons Learned</h2>
 
-Issue: my lab tenant didn't include Intune My tenant originally had an Office 365 E5 licence, which doesn't include Intune. I had to get a trial with an Intune licence on the same tenant before I could start. I turned off recurring billing straight away, since a previous trial had converted to paid.
+Issue: my lab tenant didn't include Intune My tenant originally had an P2 licence, which did't include Intune. I had to get a trial with an Intune licence on the same tenant before I could start. I turned off recurring billing straight away, since a previous trial had converted to paid.
 
 Issue: new security group didn't show up when assigning the compliance policy My older groups appeared in the assignment picker but the new one didn't. New groups can take a while to show up in Intune, so I created the policy first and came back to the assignment later.
 
